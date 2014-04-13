@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/bounce_interpolator">
+    <!-- interpolator: rhythm of the animation, here linear interpolator means 
+    move from the start to end at a constant speed -->
+    <translate
+        android:fromYDelta="-100%p"
+        android:toYDelta="0"
+        android:duration="3000"
+        />
+
+</set>
